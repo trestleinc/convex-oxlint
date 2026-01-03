@@ -1,0 +1,20 @@
+{
+  "name": "@trestleinc/convex-oxlint",
+  "version": "0.1.0",
+  "description": "Oxlint plugin with Convex-specific linting rules",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": ["index.js", "README.md"],
+  "keywords": ["oxlint", "convex", "linter", "eslint", "plugin"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trestleinc/convex-oxlint"
+  },
+  "peerDependencies": {
+    "oxlint": ">=1.0.0"
+  }
+}
